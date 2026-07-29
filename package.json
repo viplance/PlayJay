@@ -1,0 +1,15 @@
+{
+  "name": "play-jay",
+  "version": "0.1.0",
+  "description": "PlayJay: lightweight always-on-top macOS music player for MP3, WAV and OGG.",
+  "scripts": {
+    "build": "swift build -c release",
+    "dev": "bash scripts/run_app.sh",
+    "start": "bash scripts/run_app.sh",
+    "clean": "swift package clean && rm -rf .build",
+    "test": "swift test",
+    "icon": "swift tools/generate_app_icon.swift"
+  },
+  "author": "Dzmitry Sharko",
+  "license": "GPL-3.0-or-later"
+}
