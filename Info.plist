@@ -6,8 +6,10 @@
     <string>com.dzmitrysharko.PlayJay</string>
     <key>CFBundleName</key>
     <string>PlayJay</string>
-    <key>CFBundleVersion</key>
+    <key>CFBundleShortVersionString</key>
     <string>0.1.0</string>
+    <key>CFBundleVersion</key>
+    <string>2</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleExecutable</key>
@@ -23,6 +25,8 @@
             <string>Audio File</string>
             <key>CFBundleTypeRole</key>
             <string>Viewer</string>
+            <key>LSHandlerRank</key>
+            <string>Default</string>
             <key>LSItemContentTypes</key>
             <array>
                 <string>public.mp3</string>
